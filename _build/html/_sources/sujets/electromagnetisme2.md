@@ -1,4 +1,4 @@
-# Electromagnétisme 2 : 
+# Electromagnétisme 2
 
 Représentation graphique du champ magnétique créé par un solénoïde
 
