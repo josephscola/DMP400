@@ -1,2 +1,0 @@
-# Physique des ondes
-
