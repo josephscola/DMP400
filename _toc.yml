@@ -1,0 +1,12 @@
+format: jb-book
+root: intro
+chapters:
+- file: materiel
+- file: sujets
+  sections:
+  - file: sujets/accelerometre
+  - file: sujets/analyse_du_son
+  - file: sujets/consonnance_sonore
+  - file: sujets/synthèse_sonore
+  - file: sujets/electromagnetisme1
+  - file: sujets/electromagnetisme2
