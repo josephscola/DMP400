@@ -1,0 +1,26 @@
+# Accéléromètre
+
+Calcul de la trajectoire d'un mobile par intégration des données d'accéléromètres 3 axes ($\vec{a} = a_x \vec{u_x} + a_y \vec{u_y} + a_z \vec{u_z}$) dont il est équipé.
+
+## Modules utilisés
+- [numpy](https://numpy.org/)
+- [mpl_toolkits](https://matplotlib.org/2.2.2/mpl_toolkits/index.html)
+
+## Paramètres d'entrée
+- position et vitesse initiales du ou des capteurs
+- soustraction de l'écart à zéro du ou des capteurs
+
+## Fonctionnalités
+- acquisition des données :
+	+ communication avec l'accéléromètre
+	+ gestion du flux de données (structure et stockage)
+- analyse numérique des données :
+	+ détermination de l'inclinaison du capteur
+	+ calcul par intégration de la position instantanée
+- traitement asynchrone 
+- traitement en temps réel
+- représentation graphique du mouvement
+
+#### Tutoriels en ligne
+- [Text](https://www.instructables.com/Motion-Control-With-Raspberry-Pi-and-LIS3DHTR-3-Ax/)
+- [Video](https://www.youtube.com/watch?v=1wQNX1Q9gkc)
