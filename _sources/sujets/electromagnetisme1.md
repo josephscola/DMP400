@@ -1,4 +1,4 @@
-# Électromagnétisme 1 :
+# Électromagnétisme 1
 
 Représentation graphique du champ électrique créé par un condensateur
 
