@@ -1,4 +1,7 @@
 # Éphéméride 
+
+	Projet de 4 personnes
+
 Calcul de des positions à une date donnée des 4 planètes telluriques du système solaire et animation(s) graphique(s) associées.
 Voir [M. LLop](mailto:xllop@hotmail.fr)
 

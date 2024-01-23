@@ -1,6 +1,6 @@
 # Calendrier d'avancement
 
-- lundi 22 janvier : diffusion des sujets
+- mardi 23 janvier : diffusion des sujets
 - vendredi 26 janvier : choix définitif des sujets
 - vendredi 2 février : structuration du projet
 - vendredi 9 février : suivi de structuration du projet
