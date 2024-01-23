@@ -5,9 +5,9 @@ chapters:
 - file: materiel
 - file: sujets
   sections:
-  - file: sujets/accelerometre
+  - file: sujets/ephemeride
   - file: sujets/analyse_du_son
   - file: sujets/consonnance_sonore
-  - file: sujets/synthese_sonore
   - file: sujets/electromagnetisme1
   - file: sujets/electromagnetisme2
+  - file: sujets/pySIMS

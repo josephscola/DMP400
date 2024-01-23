@@ -1,6 +1,12 @@
-# Analyse sonore
+# Analyse sonore 
+
+	Projet de 5 personnes
+
+	Coordination avec le projet Consonance sonore
 
 Traitement numérique d'un signal audio acquis depuis le flux audio de l'appareil.
+Ce projet sera embarqué dans un nano-ordinateur Raspberry Pi ou Raspberry Pico.
+Voir [M. LLop](mailto:xllop@hotmail.fr)
 
 ## Modules utilisés
 - [matplotlib](https://matplotlib.org/)
@@ -25,7 +31,7 @@ Traitement numérique d'un signal audio acquis depuis le flux audio de l'apparei
 	+ séparation des composantes [harmoniques et percussives](https://librosa.org/doc/latest/auto_examples/plot_hprss.html#sphx-glr-auto-examples-plot-hprss-py)
  
 ## Matériel 
-- carte son Raspberry Pi
+- haut-parleur Raspberry Pi
 
 ## Amorce de code
 ```python

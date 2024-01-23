@@ -1,5 +1,9 @@
 # Électromagnétisme 1
 
+	Projet de 3 personnes 
+
+	Coordination avec Électromagnétisme 2
+
 Représentation graphique du champ électrique créé par un condensateur
 
 ## Modules utilisés

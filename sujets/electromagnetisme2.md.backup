@@ -1,6 +1,11 @@
-# Electromagnétisme 2 : 
+# Electromagnétisme 2
+
+	Projet de 3 personnes 
+
+	Coordination avec Électromagnétisme12
 
 Représentation graphique du champ magnétique créé par un solénoïde
+
 
 ## Modules utilisés
 - [matplotlib](https://matplotlib.org/)

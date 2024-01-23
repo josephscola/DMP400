@@ -1,5 +1,10 @@
-# Consonance sonore
+# Consonance sonore 
 
+	Projet de 4 personnes
+
+	Coordination avec le projet Analyse du son
+
+Développement d'un outil pédagogique pour entraîner l'oreille à la [micro-tonalité](https://fr.wikipedia.org/wiki/Micro-intervalle) et aux différents [tempéraments](https://fr.wikipedia.org/wiki/Gammes_et_temp%C3%A9raments_dans_la_musique_occidentale).
 Création d'une interface graphique permettant d'ajuster l'intervalle séparant deux ondes sonores.
 La manipulation s'effectue à la souris et les sons sont ajustés en temps réels, de même que la représentation graphique de l'onde.
 

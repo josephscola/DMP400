@@ -1,0 +1,29 @@
+# Librairie _pySIMS_
+
+	Projet de 3 personnes
+	
+	Coordination avec des chercheur·euses du GEMaC
+	
+L'objectif de ce projet est la production d'une librairie Python dédiée au traitement des données de [spectrométrie de masses d'ions secondaires](https://www.gemac.uvsq.fr/sims). 
+La librairie sera mise à disposition des utilisateur·rices en source ouverte et sera présentée au congrès international de la communauté de l'analyse ionique en septembre 2024.
+
+Ce projet concerne la seconde phase de développement de la librairie pySIMS : la plupart des fonctions sont déjà codées et le travaille consistera à rassembler les fonctionnalités dans des **classes** et de documenter la libraire.
+
+## Modules utilisés
+- [mendeleev](https://mendeleev.readthedocs.io/en/stable/) : données isotopiques et énergies d'ionisation
+- [matplotlib](https://matplotlib.org/) édition de graphiques
+
+## Paramètres d'entrée 
+- fichiers de données au format du constructeur CAMECA
+
+## Fonctionnalités (déjà codées)
+- lecture / affichage / traitements de :
+	+ spectres de masses
+	+ profils en profondeur
+	+ distributions en énergie
+- gestion des métadonnées
+- simulation d'interférences de masse
+
+## Complément
+- visite de l'équipement du GEMaC
+- entretien avec des expert·es de la technique
