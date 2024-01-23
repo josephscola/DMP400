@@ -1,4 +1,4 @@
-# Electromagnétisme 2
+# Électromagnétisme 2
 
 	Projet de 3 personnes 
 
