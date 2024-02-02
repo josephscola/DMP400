@@ -3,7 +3,7 @@
 - mardi 23 janvier : diffusion des sujets
 - vendredi 26 janvier : choix définitif des sujets
 - vendredi 2 février : structuration du projet
-- vendredi 9 février : suivi de structuration du projet
+- vendredi 9 février : suivi de structuration du projet [CHOISIR UN CRENEAU ICI](https://mensuel.framapad.org/p/suivi_structure_projet-a5uf?lang=fr)
 - vendredi 16 février : rendu de la structure du projet
 - du 26 février au 3 mai : 
 	- séances de travail en autonomie les vendredi après-midi (hors TP)
