@@ -1,4 +1,4 @@
-# Électromagnétisme 1
+# Champ électrique créé par un condensateur réel
 
 	Projet de 3 personnes 
 

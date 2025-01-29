@@ -1,10 +1,10 @@
-# Électromagnétisme 2
+# Spires magnétiques
 
 	Projet de 3 personnes 
 
-	Coordination avec Électromagnétisme 1
+	Coordination avec projet "dipôle magnétique"
 
-Représentation graphique du champ magnétique créé par un solénoïde
+Représentation graphique du champ magnétique créé par une spire, un solénoïde, ...
 
 
 ## Modules utilisés

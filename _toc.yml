@@ -5,9 +5,11 @@ chapters:
 - file: materiel
 - file: sujets
   sections:
-  - file: sujets/ephemeride
-  - file: sujets/analyse_du_son
-  - file: sujets/consonnance_sonore
+  - file: sujets/chaleur
+  - file: sujets/dipole_magnetique
   - file: sujets/electromagnetisme1
   - file: sujets/electromagnetisme2
-  - file: sujets/pySIMS
+  - file: sujets/logiciel_scientifique
+  - file: sujets/edition_librairie
+  - file: sujets/sujet_libre
+  
