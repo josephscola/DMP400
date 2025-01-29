@@ -1,6 +1,6 @@
 # Spires magnétiques
 
-	Projet de 3 personnes 
+	Projet de 4 personnes 
 
 	Coordination avec projet "dipôle magnétique"
 
