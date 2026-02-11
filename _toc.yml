@@ -6,12 +6,4 @@ chapters:
 - file: sujets
   sections:
   - file: sujets/probleme_de_Laplace
-  - file: sujets/analyse_rythmes_reguliers
-  - file: sujets/chaleur
-  - file: sujets/dipole_magnetique
-  - file: sujets/electromagnetisme1
-  - file: sujets/electromagnetisme2
-  - file: sujets/logiciel_scientifique
-  - file: sujets/edition_librairie
-  - file: sujets/sujet_libre
-  
+  - file: sujets/analyse_rythmes_reguliers  

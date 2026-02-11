@@ -1,6 +1,6 @@
 # Analyse sonore 
 
-	Projet de 3 personnes
+	Projet de 3 personnes du TP1
 	Encadrant : J. Scola
 
 
