@@ -2,13 +2,13 @@
 <!DOCTYPE html>
 
 
-<html lang="en" data-content_root="./" >
+<html lang="en" data-content_root="../" >
 
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Projets numériques — DMP400 &#8212; Projets numériques</title>
+    <title>Problème de Laplace &#8212; Projets numériques</title>
   
   
   
@@ -18,51 +18,48 @@
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
-<link href="_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
-<link href="_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link href="../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
 
   
-  <link href="_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
-  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+  <link href="../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
 
-    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
-    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=a3416100" />
-    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
-    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
-    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
-    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=a3416100" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
-<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
-  <script src="_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
 
-    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
-    <script src="_static/doctools.js?v=9a2dae69"></script>
-    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
-    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
-    <script src="_static/copybutton.js?v=f281be69"></script>
-    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
-    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+    <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script src="_static/design-tabs.js?v=36754332"></script>
+    <script src="../_static/design-tabs.js?v=36754332"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
+    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
-    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'intro';</script>
-    <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Calendrier du projet" href="calendrier.html" />
+    <script>DOCUMENTATION_OPTIONS.pagename = 'sujets/Laplace_analyse_numerique';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -94,7 +91,7 @@
     <div class="search-button__overlay"></div>
     <div class="search-button__search-container">
 <form class="bd-search d-flex align-items-center"
-      action="search.html"
+      action="../search.html"
       method="get">
   <i class="fa-solid fa-magnifying-glass"></i>
   <input type="search"
@@ -145,7 +142,7 @@
     
   
 
-<a class="navbar-brand logo" href="#">
+<a class="navbar-brand logo" href="../intro.html">
   
   
   
@@ -156,8 +153,8 @@
       
     
     
-    <img src="_static/UFR_sciences_logo_2020_ecran.png" class="logo__image only-light" alt="Projets numériques - Home"/>
-    <script>document.write(`<img src="_static/UFR_sciences_logo_2020_ecran.png" class="logo__image only-dark" alt="Projets numériques - Home"/>`);</script>
+    <img src="../_static/UFR_sciences_logo_2020_ecran.png" class="logo__image only-light" alt="Projets numériques - Home"/>
+    <script>document.write(`<img src="../_static/UFR_sciences_logo_2020_ecran.png" class="logo__image only-dark" alt="Projets numériques - Home"/>`);</script>
   
   
 </a></div>
@@ -176,27 +173,27 @@
     <div class="bd-toc-item navbar-nav active">
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
-            <li class="toctree-l1 current active">
-                <a class="reference internal" href="#">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro.html">
                     Projets numériques — DMP400
                 </a>
             </li>
         </ul>
         <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="calendrier.html">Calendrier du projet</a></li>
-<li class="toctree-l1"><a class="reference internal" href="suivi.html">Suivi des projets</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="sujets.html">Liste des sujets</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l2"><a class="reference internal" href="sujets/probleme_de_Laplace.html">Problème de Laplace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../calendrier.html">Calendrier du projet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../materiel.html">Matériel à disposition</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../sujets.html">Liste des sujets</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="probleme_de_Laplace.html">Problème de Laplace</a></li>
 
 
-<li class="toctree-l2"><a class="reference internal" href="sujets/analyse_rythmes_reguliers.html">Analyse sonore</a></li>
-<li class="toctree-l2"><a class="reference internal" href="sujets/chaleur.html">Diffusion thermique dans une barre cylindrique</a></li>
-<li class="toctree-l2"><a class="reference internal" href="sujets/dipole_magnetique.html">Dipôle magnétique</a></li>
-<li class="toctree-l2"><a class="reference internal" href="sujets/electromagnetisme1.html">Champ électrique créé par un condensateur réel</a></li>
-<li class="toctree-l2"><a class="reference internal" href="sujets/electromagnetisme2.html">Spires magnétiques</a></li>
-<li class="toctree-l2"><a class="reference internal" href="sujets/logiciel_scientifique.html">Edition d’un logiciel scientifique</a></li>
-<li class="toctree-l2"><a class="reference internal" href="sujets/edition_librairie.html">Edition d’une librairie</a></li>
-<li class="toctree-l2"><a class="reference internal" href="sujets/sujet_libre.html">Sujet libre</a></li>
+<li class="toctree-l2"><a class="reference internal" href="analyse_rythmes_reguliers.html">Analyse sonore</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chaleur.html">Diffusion thermique dans une barre cylindrique</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dipole_magnetique.html">Dipôle magnétique</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electromagnetisme1.html">Champ électrique créé par un condensateur réel</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electromagnetisme2.html">Spires magnétiques</a></li>
+<li class="toctree-l2"><a class="reference internal" href="logiciel_scientifique.html">Edition d’un logiciel scientifique</a></li>
+<li class="toctree-l2"><a class="reference internal" href="edition_librairie.html">Edition d’une librairie</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sujet_libre.html">Sujet libre</a></li>
 </ul>
 </details></li>
 </ul>
@@ -270,7 +267,7 @@
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fintro.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fsujets/Laplace_analyse_numerique.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -300,7 +297,7 @@
       
       
       
-      <li><a href="_sources/intro.md" target="_blank"
+      <li><a href="../_sources/sujets/Laplace_analyse_numerique.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -384,7 +381,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Projets numériques — DMP400</h1>
+    <h1>Problème de Laplace</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -394,8 +391,9 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#objectifs-pedagogiques">Objectifs pédagogiques</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#evaluation-du-travail">Évaluation du travail</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#modules-utilises">Modules utilisés</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#parametres-d-entree">Paramètres d’entrée</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#fonctionnalites">Fonctionnalités</a></li>
 </ul>
             </nav>
         </div>
@@ -407,54 +405,56 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="projets-numeriques-dmp400">
-<h1>Projets numériques — DMP400<a class="headerlink" href="#projets-numeriques-dmp400" title="Link to this heading">#</a></h1>
-<p>– version du 11 février 2026 –</p>
-<section id="objectifs-pedagogiques">
-<h2>Objectifs pédagogiques<a class="headerlink" href="#objectifs-pedagogiques" title="Link to this heading">#</a></h2>
-<ul class="simple">
-<li><p>Approfondissement du programme de Physique (et de Mathématiques)</p></li>
-<li><p>Apprentissage du codage</p></li>
-<li><p><a class="reference external" href="https://josephscola.github.io/PH461/chapitre2/guide_du_codage.html">Structuration d’un projet</a></p>
-<ul>
-<li><p>documentation</p></li>
-<li><p>programmation</p></li>
-<li><p>validation</p></li>
-<li><p>interfaçage</p></li>
-</ul>
+  <section class="tex2jax_ignore mathjax_ignore" id="probleme-de-laplace">
+<h1>Problème de Laplace<a class="headerlink" href="#probleme-de-laplace" title="Link to this heading">#</a></h1>
+<p>Ce projet s’inscrit dans l’analyse des résultats d’expérience de mesures  électriques à l’échelle nanométrique (<em>conductive AFM</em>) menées au laboratoire GEMaC.</p>
+<p><img alt="" src="../_images/cAFM_configuration_small.png" /></p>
+<p>La géométrie de la mesure impose une distribution inhomogène du champ électrique induit par la différence de potentiel appliquée entre les électrodes. De ce fait, la relation entre la résistance mesurée et la résistivité intrinsèque du matériau dépend non seulement des dimensions de l’échantillon mais également du détail de la configuration de mesure qui détermine la distribution de champ électrique.</p>
+<p>Le but de ce projet est de déterminer numériquement la distribution de champ électrique dans un matériau isolant en présence d’électrodes métalliques imposant localement un potentiel.
+Le champ électrique dans le matériau est calculé à partir de la distribution de potentiel vérifiant l’équation de Laplace.</p>
+<p><img alt="" src="../_images/Potential_distribution.png" /></p>
+<ol class="arabic">
+<li><p>position du problème et traitement analytique des cas accessibles</p></li>
+<li><p>différences finies : analyse numérique du schéma (convergence, stabilité, robustesse, complexité)</p></li>
+<li><p>différences finies : implémentation du schéma numérique 2D et 3D</p></li>
+<li><p>éléments finis : implémentation par sfepy comme boite noire</p>
+<p>Projet de 4 personnes</p>
+<p>Coordination avec projet “dipôle magnétique”</p>
 </li>
-<li><p>Travail en équipe</p>
+</ol>
+<p>Représentation graphique du champ magnétique créé par une spire, un solénoïde, …</p>
+<section id="modules-utilises">
+<h2>Modules utilisés<a class="headerlink" href="#modules-utilises" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://matplotlib.org/">matplotlib</a></p></li>
+<li><p><a class="reference external" href="https://numpy.org/">numpy</a></p></li>
+</ul>
+</section>
+<section id="parametres-d-entree">
+<h2>Paramètres d’entrée<a class="headerlink" href="#parametres-d-entree" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>pas du maillage 3D (décomposition élémentaire de la distribution)</p></li>
+<li><p>pas du maillage de représentation (origine des vecteurs affichés)</p></li>
+<li><p>distribution de charge (élément de courant et position)</p></li>
+</ul>
+</section>
+<section id="fonctionnalites">
+<h2>Fonctionnalités<a class="headerlink" href="#fonctionnalites" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Calcul direct du champ magnétique créé par une spire idéale dans tout l’espace</p></li>
+<li><p>Calcul par superposition du champ créé partout dans l’espace par un solénoïde fini</p></li>
+<li><p>Représentations graphiques du champ magnétique</p></li>
+<li><p>Vérification sur des distributions pour lesquelles une solution analytique simple existe pour le solénoïde</p></li>
+<li><p>Extractions de coupe (distributions 3D) et de profils (distributions 2D) de champ et de potentiel</p></li>
+<li><p>Simulation du champ créé par une association de solénoïdes</p>
 <ul>
-<li><p>répartition des tâches</p></li>
-<li><p>transfert d’informations interne</p></li>
-<li><p>coordination avec les autres équipes (le cas échéant)</p></li>
+<li><p><a class="reference external" href="https://fr.wikipedia.org/wiki/Bobines_de_Helmholtz">Bobines de Helmholtz</a></p></li>
+<li><p><a class="reference external" href="https://uccubecats.github.io/HelmholtzCage.html">Cage de Helmhlotz</a></p></li>
+<li><p><a class="reference external" href="https://fr.wikipedia.org/wiki/Bobines_de_Maxwell">Bobine de Maxwell</a></p></li>
 </ul>
 </li>
 </ul>
 </section>
-<section id="evaluation-du-travail">
-<h2>Évaluation du travail<a class="headerlink" href="#evaluation-du-travail" title="Link to this heading">#</a></h2>
-<p>Chaque équipe devra fournir :</p>
-<ul class="simple">
-<li><p>un rapport écrit (coef. 0.5) contenant</p>
-<ol class="arabic simple">
-<li><p>une présentation du <strong>sujet</strong> dans un document .ipynb</p></li>
-<li><p>la documentation du <strong>programme</strong> dans un document .ipynb incluant notamment sa structure, sa procédure d’installation et des exemples d’utilisation</p></li>
-<li><p>les procédures de <strong>test des fonctionnalités</strong> du programme dans un document  .ipynb</p></li>
-</ol>
-</li>
-<li><p>le <strong>code complet</strong> et toutes ses dépendances (dans un fichier <em>requirements.txt</em>).</p></li>
-</ul>
-<p>Les projets seront défendus le 29 mai par un oral (coef. 0.5) où chaque équipe donnera à voir :</p>
-<ol class="arabic simple">
-<li><p>les objectifs du projet</p></li>
-<li><p>les fonctionnalités du programme (démonstration en direct possible)</p></li>
-<li><p>les difficultés techniques rencontrées et leurs solutions mises en œuvre</p></li>
-<li><p>la maîtrise de l’ensemble du projet par l’ensemble de l’équipe</p></li>
-</ol>
-</section>
-<div class="toctree-wrapper compound">
-</div>
 </section>
 
     <script type="text/x-thebe-config">
@@ -470,7 +470,7 @@ document.write(`
         },
         kernelOptions: {
             name: "python3",
-            path: "./."
+            path: "./sujets"
         },
         predefinedOutput: true
     }
@@ -487,15 +487,6 @@ document.write(`
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
-    <a class="right-next"
-       href="calendrier.html"
-       title="next page">
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Calendrier du projet</p>
-      </div>
-      <i class="fa-solid fa-angle-right"></i>
-    </a>
 </div>
                 </footer>
               
@@ -512,8 +503,9 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#objectifs-pedagogiques">Objectifs pédagogiques</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#evaluation-du-travail">Évaluation du travail</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#modules-utilises">Modules utilisés</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#parametres-d-entree">Paramètres d’entrée</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#fonctionnalites">Fonctionnalités</a></li>
 </ul>
   </nav></div>
 
@@ -562,8 +554,8 @@ By J. Scola
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
-<script src="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+  <script src="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
 
   <footer class="bd-footer">
   </footer>
