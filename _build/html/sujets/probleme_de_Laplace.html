@@ -186,8 +186,6 @@
 <li class="toctree-l1"><a class="reference internal" href="../suivi.html">Suivi des projets</a></li>
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="../sujets.html">Liste des sujets</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
 <li class="toctree-l2 current active"><a class="current reference internal" href="#">Problème de Laplace</a></li>
-
-
 <li class="toctree-l2"><a class="reference internal" href="analyse_rythmes_reguliers.html">Analyse sonore</a></li>
 </ul>
 </details></li>
@@ -386,17 +384,14 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Problème de Laplace</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#decomposition-du-projet-en-sous-projets">Décomposition du projet en sous-projets</a><ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sp1-calcul-de-solutions-analytiques-3-personnes">SP1 - Calcul de solutions analytiques (3 personnes)</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sp2-methode-des-differences-finies-df-analyse-du-schema-numerique-4-personnes">SP2 - Méthode des différences finies (DF) : analyse du schéma numérique (4 personnes)</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sp3-methode-des-differences-finies-implementation-du-schema-numerique-dans-des-configurations-2d-et-3d-4-personnes">SP3 - Méthode des différences finies : implémentation du schéma numérique dans des configurations 2D et 3D (4 personnes)</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sp4-methode-des-elements-finis-adaptation-d-un-code-existant-dans-les-configurations-2d-et-3d-4-personnes">SP4 - Méthode des éléments finis : adaptation d’un code existant dans les configurations 2D et 3D (4 personnes)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#decomposition-du-projet-en-sous-projets">Décomposition du projet en sous-projets</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sp1-calcul-de-solutions-analytiques-3-personnes">SP1 - Calcul de solutions analytiques (3 personnes)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sp2-methode-des-differences-finies-df-analyse-du-schema-numerique-4-personnes">SP2 - Méthode des différences finies (DF) : analyse du schéma numérique (4 personnes)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sp4-methode-des-elements-finis-adaptation-d-un-code-existant-dans-les-configurations-2d-et-3d-4-personnes">SP4 - Méthode des éléments finis : adaptation d’un code existant dans les configurations 2D et 3D (4 personnes)</a></li>
 </ul>
 </li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#deroulement-du-projet">Déroulement du projet</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#deroulement-du-projet">Déroulement du projet</a></li>
 </ul>
-
             </nav>
         </div>
     </div>
@@ -426,11 +421,10 @@ La figure ci-dessous illustre la distribution de potentiel dans le <strong>syst�
 Le résultat final devra être réalisé par la mise en oeuvre de deux méthodes numériques distinctes, et appliquées sur un système de référence pour lequel une approximation analytique existe.
 Ces solutions analytiques serviront à valider les résultats des deux méthodes numériques.</p>
 <p>Compte tenu de l’étendue et de la variété du travail demandé, les tâches du projet sont décomposées en 4 sous-projets à traiter en parallèle par équipes de 4.</p>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="decomposition-du-projet-en-sous-projets">
-<h1>Décomposition du projet en sous-projets<a class="headerlink" href="#decomposition-du-projet-en-sous-projets" title="Link to this heading">#</a></h1>
+<section id="decomposition-du-projet-en-sous-projets">
+<h2>Décomposition du projet en sous-projets<a class="headerlink" href="#decomposition-du-projet-en-sous-projets" title="Link to this heading">#</a></h2>
 <section id="sp1-calcul-de-solutions-analytiques-3-personnes">
-<h2>SP1 - Calcul de solutions analytiques (3 personnes)<a class="headerlink" href="#sp1-calcul-de-solutions-analytiques-3-personnes" title="Link to this heading">#</a></h2>
+<h3>SP1 - Calcul de solutions analytiques (3 personnes)<a class="headerlink" href="#sp1-calcul-de-solutions-analytiques-3-personnes" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p>position du problème depuis les équations de Maxwell jusqu’à la formulation canonique (<span class="math notranslate nohighlight">\(\Delta V = 0\)</span> dans <span class="math notranslate nohighlight">\(\Omega\)</span>)</p></li>
 <li><p>formulation de Feynman du problème 2D</p></li>
@@ -439,17 +433,13 @@ Ces solutions analytiques serviront à valider les résultats des deux méthodes
 </ul>
 </section>
 <section id="sp2-methode-des-differences-finies-df-analyse-du-schema-numerique-4-personnes">
-<h2>SP2 - Méthode des différences finies (DF) : analyse du schéma numérique (4 personnes)<a class="headerlink" href="#sp2-methode-des-differences-finies-df-analyse-du-schema-numerique-4-personnes" title="Link to this heading">#</a></h2>
+<h3>SP2 - Méthode des différences finies (DF) : analyse du schéma numérique (4 personnes)<a class="headerlink" href="#sp2-methode-des-differences-finies-df-analyse-du-schema-numerique-4-personnes" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p>coordination avec l’autre équipe DF</p></li>
 <li><p>construction du schéma numérique avec conditions limites mixtes (formules de dérivation numérique)</p></li>
 <li><p>étude de la stabilité et robustesse du schéma numérique et calculs de complexité numérique</p></li>
-<li><p>comparaison des performances des techniques de résolution du problème linéarisé (Gauss Seidel, Jacobi, Cholesky, <em>etc.</em>)</p></li>
-</ul>
-</section>
-<section id="sp3-methode-des-differences-finies-implementation-du-schema-numerique-dans-des-configurations-2d-et-3d-4-personnes">
-<h2>SP3 - Méthode des différences finies : implémentation du schéma numérique dans des configurations 2D et 3D (4 personnes)<a class="headerlink" href="#sp3-methode-des-differences-finies-implementation-du-schema-numerique-dans-des-configurations-2d-et-3d-4-personnes" title="Link to this heading">#</a></h2>
-<ul class="simple">
+<li><p>comparaison des performances des techniques de résolution du problème linéarisé (Gauss Seidel, Jacobi, Cholesky, <em>etc.</em>)
+#”# SP3 - Méthode des différences finies : implémentation du schéma numérique dans des configurations 2D et 3D (4 personnes)</p></li>
 <li><p>coordination avec l’autre équipe DF</p></li>
 <li><p>utilisation de la librairie <code class="docutils literal notranslate"><span class="pre">numpy</span></code></p></li>
 <li><p>définition des conditions limites</p></li>
@@ -458,7 +448,7 @@ Ces solutions analytiques serviront à valider les résultats des deux méthodes
 </ul>
 </section>
 <section id="sp4-methode-des-elements-finis-adaptation-d-un-code-existant-dans-les-configurations-2d-et-3d-4-personnes">
-<h2>SP4 - Méthode des éléments finis : adaptation d’un code existant dans les configurations 2D et 3D (4 personnes)<a class="headerlink" href="#sp4-methode-des-elements-finis-adaptation-d-un-code-existant-dans-les-configurations-2d-et-3d-4-personnes" title="Link to this heading">#</a></h2>
+<h3>SP4 - Méthode des éléments finis : adaptation d’un code existant dans les configurations 2D et 3D (4 personnes)<a class="headerlink" href="#sp4-methode-des-elements-finis-adaptation-d-un-code-existant-dans-les-configurations-2d-et-3d-4-personnes" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p>utilisation d’un code réalisé par un tiers (fonctionnement en boite noire)</p></li>
 <li><p>construction de maillages</p></li>
@@ -468,12 +458,13 @@ Ces solutions analytiques serviront à valider les résultats des deux méthodes
 </ul>
 </section>
 </section>
-<section class="tex2jax_ignore mathjax_ignore" id="deroulement-du-projet">
-<h1>Déroulement du projet<a class="headerlink" href="#deroulement-du-projet" title="Link to this heading">#</a></h1>
+<section id="deroulement-du-projet">
+<h2>Déroulement du projet<a class="headerlink" href="#deroulement-du-projet" title="Link to this heading">#</a></h2>
 <p>Traitement complet du <strong>système de référence</strong> par les 4 sous-projets est attendue sous la forme d’un rapport au format <em>notebook</em> pour la semaine du <span class="math notranslate nohighlight">\(\color{red}27 \, \mathrm{mars}\)</span>.
 Une séance de travail réunissant les 4 équipes sera organisée dans la deuxième quinzaine de mars afin de croiser les résultats des 4 équipes et valider les méthodes numériques. Ensuite, la seconde partie du projet sera alors consacrée à l’étude de cas réels (pavé massif, film mince, empilement multi-couches, diverses configurations d’électrodes) par les deux méthodes numériques.
 Les équipes seront éventuellement redéfinies afin que les équipes SP1 et SP2 puissent se joindre à ce travail.
 Les études de cas seront décrits dans des rapports individuels et leurs résultats ajoutés aux rapports intermédiaires pour constituer un seul document cohérent à rendre au plus tard la veille de la soutenance qui se déroulera vendredi 29 mai à 9h40, amphi F.</p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -540,17 +531,14 @@ Les études de cas seront décrits dans des rapports individuels et leurs résul
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Problème de Laplace</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#decomposition-du-projet-en-sous-projets">Décomposition du projet en sous-projets</a><ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sp1-calcul-de-solutions-analytiques-3-personnes">SP1 - Calcul de solutions analytiques (3 personnes)</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sp2-methode-des-differences-finies-df-analyse-du-schema-numerique-4-personnes">SP2 - Méthode des différences finies (DF) : analyse du schéma numérique (4 personnes)</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sp3-methode-des-differences-finies-implementation-du-schema-numerique-dans-des-configurations-2d-et-3d-4-personnes">SP3 - Méthode des différences finies : implémentation du schéma numérique dans des configurations 2D et 3D (4 personnes)</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sp4-methode-des-elements-finis-adaptation-d-un-code-existant-dans-les-configurations-2d-et-3d-4-personnes">SP4 - Méthode des éléments finis : adaptation d’un code existant dans les configurations 2D et 3D (4 personnes)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#decomposition-du-projet-en-sous-projets">Décomposition du projet en sous-projets</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sp1-calcul-de-solutions-analytiques-3-personnes">SP1 - Calcul de solutions analytiques (3 personnes)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sp2-methode-des-differences-finies-df-analyse-du-schema-numerique-4-personnes">SP2 - Méthode des différences finies (DF) : analyse du schéma numérique (4 personnes)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sp4-methode-des-elements-finis-adaptation-d-un-code-existant-dans-les-configurations-2d-et-3d-4-personnes">SP4 - Méthode des éléments finis : adaptation d’un code existant dans les configurations 2D et 3D (4 personnes)</a></li>
 </ul>
 </li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#deroulement-du-projet">Déroulement du projet</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#deroulement-du-projet">Déroulement du projet</a></li>
 </ul>
-
   </nav></div>
 
 </div></div>
