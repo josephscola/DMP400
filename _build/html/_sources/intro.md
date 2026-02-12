@@ -5,7 +5,7 @@
 ## Objectifs pédagogiques
 + Approfondissement du programme de Physique (et de Mathématiques)
 + Apprentissage du codage
-+ [Structuration d'un projet](https://josephscola.github.io/PH461/chapitre2/guide_du_codage.html) 
++ Structuration d'un projet
 	- documentation
 	- programmation
 	- validation
