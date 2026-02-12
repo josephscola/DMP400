@@ -1,7 +1,8 @@
-# Analyse sonore 
+# Analyse sonore (TP1)
 
 	Projet de 3 personnes du TP1
 	Encadrant : J. Scola
+	Contact : joseph.scola@uvsq.fr
 
 
 Ce projet s'inscrit dans le cadre général de la transcription automatique de signaux musicaux et se concentre sur la composante rythmique. Il s'agit de mettre en évidence par l'analyse systématique les décompositions ni binaires ni ternaires du temps.
