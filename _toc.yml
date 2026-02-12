@@ -1,8 +1,8 @@
 format: jb-book
 root: intro
 chapters:
-- file: calendrier
 - file: suivi
+- file: evaluation
 - file: sujets
   sections:
   - file: sujets/paquet
