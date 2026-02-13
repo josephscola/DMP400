@@ -62,8 +62,7 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'sujets/probleme_de_Laplace';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Analyse sonore (TP1)" href="analyse_rythmes_reguliers.html" />
-    <link rel="prev" title="Liste des sujets" href="../sujets.html" />
+    <link rel="prev" title="Analyse sonore (TP1)" href="analyse_rythmes_reguliers.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -182,14 +181,14 @@
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../calendrier.html">Calendrier du projet</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../suivi.html">Suivi des projets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../evaluation.html">Évaluation du travail</a></li>
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="../sujets.html">Liste des sujets</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
-<li class="toctree-l2 current active"><a class="current reference internal" href="#">Problème de Laplace (TP2)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="analyse_rythmes_reguliers.html">Analyse sonore (TP1)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="paquet.html">Dynamique du paquet d’ondes gaussien (TP1)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="puits.html">Particule dans un puits de potentiel (TP1)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="barriere.html">Franchissement d’une barrière de potentiel (TP1)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="analyse_rythmes_reguliers.html">Analyse sonore (TP1)</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Problème de Laplace (TP2)</a></li>
 </ul>
 </details></li>
 </ul>
@@ -390,6 +389,7 @@ document.write(`
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#decomposition-du-projet-en-sous-projets">Décomposition du projet en sous-projets</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sp1-calcul-de-solutions-analytiques-3-personnes">SP1 - Calcul de solutions analytiques (3 personnes)</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sp2-methode-des-differences-finies-df-analyse-du-schema-numerique-4-personnes">SP2 - Méthode des différences finies (DF) : analyse du schéma numérique (4 personnes)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sp3-methode-des-differences-finies-implementation-du-schema-numerique-dans-des-configurations-2d-et-3d-4-personnes">SP3 - Méthode des différences finies : implémentation du schéma numérique dans des configurations 2D et 3D (4 personnes)</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sp4-methode-des-elements-finis-adaptation-d-un-code-existant-dans-les-configurations-2d-et-3d-4-personnes">SP4 - Méthode des éléments finis : adaptation d’un code existant dans les configurations 2D et 3D (4 personnes)</a></li>
 </ul>
 </li>
@@ -441,8 +441,12 @@ Ces solutions analytiques serviront à valider les résultats des deux méthodes
 <li><p>coordination avec l’autre équipe DF</p></li>
 <li><p>construction du schéma numérique avec conditions limites mixtes (formules de dérivation numérique)</p></li>
 <li><p>étude de la stabilité et robustesse du schéma numérique et calculs de complexité numérique</p></li>
-<li><p>comparaison des performances des techniques de résolution du problème linéarisé (Gauss Seidel, Jacobi, Cholesky, <em>etc.</em>)
-#”# SP3 - Méthode des différences finies : implémentation du schéma numérique dans des configurations 2D et 3D (4 personnes)</p></li>
+<li><p>comparaison des performances des techniques de résolution du problème linéarisé (Gauss Seidel, Jacobi, Cholesky, <em>etc.</em>)</p></li>
+</ul>
+</section>
+<section id="sp3-methode-des-differences-finies-implementation-du-schema-numerique-dans-des-configurations-2d-et-3d-4-personnes">
+<h3>SP3 - Méthode des différences finies : implémentation du schéma numérique dans des configurations 2D et 3D (4 personnes)<a class="headerlink" href="#sp3-methode-des-differences-finies-implementation-du-schema-numerique-dans-des-configurations-2d-et-3d-4-personnes" title="Link to this heading">#</a></h3>
+<ul class="simple">
 <li><p>coordination avec l’autre équipe DF</p></li>
 <li><p>utilisation de la librairie <code class="docutils literal notranslate"><span class="pre">numpy</span></code></p></li>
 <li><p>définition des conditions limites</p></li>
@@ -501,22 +505,13 @@ Les études de cas seront décrits dans des rapports individuels et leurs résul
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="../sujets.html"
+       href="analyse_rythmes_reguliers.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Liste des sujets</p>
-      </div>
-    </a>
-    <a class="right-next"
-       href="analyse_rythmes_reguliers.html"
-       title="next page">
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
         <p class="prev-next-title">Analyse sonore (TP1)</p>
       </div>
-      <i class="fa-solid fa-angle-right"></i>
     </a>
 </div>
                 </footer>
@@ -537,6 +532,7 @@ Les études de cas seront décrits dans des rapports individuels et leurs résul
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#decomposition-du-projet-en-sous-projets">Décomposition du projet en sous-projets</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sp1-calcul-de-solutions-analytiques-3-personnes">SP1 - Calcul de solutions analytiques (3 personnes)</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sp2-methode-des-differences-finies-df-analyse-du-schema-numerique-4-personnes">SP2 - Méthode des différences finies (DF) : analyse du schéma numérique (4 personnes)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sp3-methode-des-differences-finies-implementation-du-schema-numerique-dans-des-configurations-2d-et-3d-4-personnes">SP3 - Méthode des différences finies : implémentation du schéma numérique dans des configurations 2D et 3D (4 personnes)</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sp4-methode-des-elements-finis-adaptation-d-un-code-existant-dans-les-configurations-2d-et-3d-4-personnes">SP4 - Méthode des éléments finis : adaptation d’un code existant dans les configurations 2D et 3D (4 personnes)</a></li>
 </ul>
 </li>
